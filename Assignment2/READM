@@ -6,3 +6,6 @@ Problems in the first Design:
 
 2- Same thing for MonsterStealth, MonsterFast, both of them depends on concrete class, any change on Monster class will affect both of MonsterSealth and MonsterFast,
 and we can't add a monster that can be both Stealth and fast, and it won't be easy to add new types of Monsters.
+
+
+Solution
