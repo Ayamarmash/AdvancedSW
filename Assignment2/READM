@@ -1,5 +1,8 @@
 Problems in the first Design:
 1- the Player and Monster classes Depends on concrete class (Entity), which makes it hard to make any changes in Entity class, also the Player class have access for 
 (Make Noise) Method, meanwhile This function is only valid for monsters.
+
+
+
 2- Same thing for MonsterStealth, MonsterFast, both of them depends on concrete class, any change on Monster class will affect both of MonsterSealth and MonsterFast,
 and we can't add a monster that can be both Stealth and fast.
