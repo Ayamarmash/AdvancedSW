@@ -5,16 +5,16 @@ import java.util.List;
 
 public class Monster extends Entity{
     Monster() {
-        Attribute= new ArrayList<monsterAttribute>();
+        attribute= new ArrayList<MonsterAttribute>();
     }
-    private List<monsterAttribute> Attribute;
-    public List<monsterAttribute> getAttributes() {
-        return this.Attribute;
+    private List<MonsterAttribute> attribute;
+    public List<MonsterAttribute> getAttributes() {
+        return this.attribute;
     }
 
     public void Render() {
-        if(Attribute.size() > 0) {
-            for (monsterAttribute extra : Attribute) {
+        if(attribute.size() > 0) {
+            for (MonsterAttribute extra : attribute) {
                 extra.Render();
             }
         }
@@ -24,8 +24,8 @@ public class Monster extends Entity{
     }
 
     public void Move() {
-        if(Attribute.size() > 0) {
-            for (monsterAttribute extra : Attribute) {
+        if(attribute.size() > 0) {
+            for (MonsterAttribute extra : attribute) {
                 extra.Move();
             }
         }
