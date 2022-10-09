@@ -8,7 +8,7 @@ MakeNoise Method, meanwhile This function is only valid for monsters.
 and we can't add a monster that can have more than attribute-Type , and it won't be easy to add new types of Monsters.
 
 ----------------------------------------------------------------------------------------------------------
-                                               ##Solution##
+                                                    ##Solution##
 ----------------------------------------------------------------------------------------------------------
 
 
