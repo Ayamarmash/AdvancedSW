@@ -1,4 +1,5 @@
 Problems in the first Design:
+
 1- the Player and Monster classes Depends on concrete class (Entity), which makes it hard to make any changes, also the Player class have access for
 MakeNoise Method, meanwhile This function is only valid for monsters.
 
