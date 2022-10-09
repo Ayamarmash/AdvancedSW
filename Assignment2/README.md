@@ -19,3 +19,4 @@ monsters.
 
 2- For the secound problem, i created a new abstract class that extends from Monster, this class to make as many as types of monsters i want in an easy way, and without
 too much change in the code, and then we can add these types to the monster and the monster can be two types at the same time(not sure if this was a requirement).
+![Design Principles drawio](https://user-images.githubusercontent.com/58006991/194781660-a122ae2e-a01c-4421-a3ed-353aafc7ecd7.png)
