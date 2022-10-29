@@ -27,3 +27,7 @@
 
 ## Solution
 ##### The ColorStore class have a static block that will instantiate the default colors and add them to the hashmap
+
+
+![Assignment4 drawio](https://user-images.githubusercontent.com/58006991/198851108-7f53798a-8ada-4a36-88d6-aeca7a2f1850.png)
+
