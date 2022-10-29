@@ -23,10 +23,10 @@ public class ColorStore {
 
     public static Color createNewColor(int red, int green, int blue) throws Exception {
 
-        if(!colors.containsKey(Color.getKey(red, green, blue))){
+        if(!colors.containsKey(Color.checkKey(red, green, blue))){
             try{
                 Color color = new Color(red, green, blue);
-                colors.put(Color.getKey(red, green, blue), color);
+                colors.put(color.getKey(), color);
                 System.out.println("New color was added");
                 System.out.println("Number of colors so far = " + colors.size());
                 return color;
@@ -39,7 +39,12 @@ public class ColorStore {
         else{
             System.out.println("This color already exist");
             System.out.println("Number of colors so far = " + colors.size());
-            return colors.get(Color.getKey(red, green, blue));
+            return colors.get(Color.checkKey(red, green, blue));
+        }
+    }
+    public static void printColors(){
+        for (String key: colors.keySet()){
+            colors.get(key).printColorName();
         }
     }
 }
