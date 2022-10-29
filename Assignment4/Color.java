@@ -11,7 +11,8 @@ public final class Color{
         this.key = this.red + " " + this.green + " " + this.blue;
     }
     public String getKey(){
-        return key;
+        String k = this.key;
+        return k;
     }
     public static String checkKey(int red, int green, int blue){
         return red + " " + green + " " + blue;
